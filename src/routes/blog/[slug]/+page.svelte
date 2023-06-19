@@ -1,6 +1,6 @@
 <script lang="ts">
-    import type { IBlog } from "../../../lib/blog.interface"
-    export let data;
+    import type { IBlog } from '../../../lib/blog.interface';
+    export let data: IBlog;
 </script>
 
 <h1>{data.title}</h1>
